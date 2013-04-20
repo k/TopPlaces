@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2E3AFF172029DF009858E7 /* TPTopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2E3AFE172029DF009858E7 /* TPTopListViewController.m */; };
 		BD7AC0291714E3FE00525971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7AC0281714E3FE00525971 /* UIKit.framework */; };
 		BD7AC02B1714E3FE00525971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7AC02A1714E3FE00525971 /* Foundation.framework */; };
 		BD7AC02D1714E3FE00525971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7AC02C1714E3FE00525971 /* CoreGraphics.framework */; };
@@ -19,9 +20,14 @@
 		BD7AC0421714E3FE00525971 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC0401714E3FE00525971 /* MainStoryboard.storyboard */; };
 		BD7AC0451714E3FE00525971 /* TPTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7AC0441714E3FE00525971 /* TPTopViewController.m */; };
 		BD7FEEF7171649CD003478B4 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7FEEF6171649CD003478B4 /* FlickrFetcher.m */; };
+		BDB089E7171EE057000BA6BC /* TPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB089E6171EE057000BA6BC /* TPListViewController.m */; };
+		BDDDC6DC171FA0220055D5C6 /* TPPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDC6DB171FA0220055D5C6 /* TPPhotoViewController.m */; };
+		BDDDC6DF1720227B0055D5C6 /* TPRecentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDDC6DE1720227B0055D5C6 /* TPRecentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2E3AFD172029DF009858E7 /* TPTopListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTopListViewController.h; sourceTree = "<group>"; };
+		BD2E3AFE172029DF009858E7 /* TPTopListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTopListViewController.m; sourceTree = "<group>"; };
 		BD7AC0251714E3FE00525971 /* TopPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7AC0281714E3FE00525971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BD7AC02A1714E3FE00525971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,6 +47,12 @@
 		BD7FEEF4171649CD003478B4 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
 		BD7FEEF5171649CD003478B4 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
 		BD7FEEF6171649CD003478B4 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		BDB089E5171EE057000BA6BC /* TPListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPListViewController.h; sourceTree = "<group>"; };
+		BDB089E6171EE057000BA6BC /* TPListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPListViewController.m; sourceTree = "<group>"; };
+		BDDDC6DA171FA0220055D5C6 /* TPPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPPhotoViewController.h; sourceTree = "<group>"; };
+		BDDDC6DB171FA0220055D5C6 /* TPPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPPhotoViewController.m; sourceTree = "<group>"; };
+		BDDDC6DD1720227B0055D5C6 /* TPRecentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecentViewController.h; sourceTree = "<group>"; };
+		BDDDC6DE1720227B0055D5C6 /* TPRecentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +105,14 @@
 				BD7AC0401714E3FE00525971 /* MainStoryboard.storyboard */,
 				BD7AC0431714E3FE00525971 /* TPTopViewController.h */,
 				BD7AC0441714E3FE00525971 /* TPTopViewController.m */,
+				BDB089E5171EE057000BA6BC /* TPListViewController.h */,
+				BDB089E6171EE057000BA6BC /* TPListViewController.m */,
+				BDDDC6DD1720227B0055D5C6 /* TPRecentViewController.h */,
+				BDDDC6DE1720227B0055D5C6 /* TPRecentViewController.m */,
+				BD2E3AFD172029DF009858E7 /* TPTopListViewController.h */,
+				BD2E3AFE172029DF009858E7 /* TPTopListViewController.m */,
+				BDDDC6DA171FA0220055D5C6 /* TPPhotoViewController.h */,
+				BDDDC6DB171FA0220055D5C6 /* TPPhotoViewController.m */,
 				BD7AC02F1714E3FE00525971 /* Supporting Files */,
 			);
 			path = TopPlaces;
@@ -193,6 +213,10 @@
 				BD7AC0391714E3FE00525971 /* TPAppDelegate.m in Sources */,
 				BD7AC0451714E3FE00525971 /* TPTopViewController.m in Sources */,
 				BD7FEEF7171649CD003478B4 /* FlickrFetcher.m in Sources */,
+				BDB089E7171EE057000BA6BC /* TPListViewController.m in Sources */,
+				BDDDC6DC171FA0220055D5C6 /* TPPhotoViewController.m in Sources */,
+				BDDDC6DF1720227B0055D5C6 /* TPRecentViewController.m in Sources */,
+				BD2E3AFF172029DF009858E7 /* TPTopListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

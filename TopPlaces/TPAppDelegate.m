@@ -7,6 +7,7 @@
 //
 
 #import "TPAppDelegate.h"
+#import "FlickrFetcher.h"
 
 @implementation TPAppDelegate
 
